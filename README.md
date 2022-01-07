@@ -1,10 +1,12 @@
-- 👋 Hi, I’m Zhu Yan
-- 👀 I’m interested in history and archaeology
-- 🌱 I’m currently learning Markdown and Python
-- 💞️ I’m looking to collaborate on non-coding RNA, especially lncRNA
-- 📫 My email: qsyr-7408@163.com 
-
-<!---
-ZhuYan-SIPPE/ZhuYan-SIPPE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### lncRNA pipeline
+This is used to predict lncRNAs from genome using RNA-seq raw reads.
+- Input: 
+  - RNA-seq data(fastq format) 
+  - reference genome sequence(fasta format) 
+  - reference genome annotation(gff/gff3 format)
+  - config file(parameters)
+- output: 
+  - lncRNA information(gff3 format) 
+  - lncRNA sequence(fasta format) 
+  - lncRNA expressional level(csv and tab format) 
+  - diff-expressed lncRNA(csv and tab format)
